@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@500&family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #262a98;
+  min-width: 100%;
+  padding: 20px;
+  position: fixed;
+  z-index: 2;
+
+  /* box-shadow: 0 8px 10px #10102e; */
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper li {
+  list-style-type: none;
+}
+.wrapper li a {
+  color: white;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+header .wrapper ul {
+  min-width: 42%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper ul span {
+  background-color: #e9b606;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.banner {
+  background-color: #121560;
+  height: 50vh;
+}
+.banner-content {
+  position: absolute;
+  top: 24%;
+  max-width: 400px;
+  padding: 20px 0;
+}
+/* .banner-content::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 3px solid #e9b606;
+} */
+
+/*i used padding border-bottom and padding bottom in place of the psuedo selector above*/
+
+.banner-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: rgb(246, 246, 246);
+  border-bottom: #e9b606 3px solid;
+  padding-bottom: 20px;
+}
+
+main {
+  background-color: rgb(236, 231, 220);
+}
+
+.img-address h2 {
+  font-size: 2rem;
+  padding: 50px 0 20px;
+}
+
+.img-container {
+  background-image: url("https://res.cloudinary.com/akogwu/image/upload/v1613407171/Rectangle_776_hpcqxs.svg");
+
+  width: 350px;
+  margin-left: 15px;
+}
+.img-container img {
+  max-width: 100%;
+  margin: -10px 0 7px -15px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+  outline: none;
+  border: none;
+}
+main .address-form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0;
+}
+
+main address {
+  margin-top: 50px;
+  padding: 10px 0;
+}
+.phone {
+  padding: 30px 0;
+}
+
+/* form {
+  padding-left: 10%;
+} */
+.form {
+  border: 1px solid black;
+  padding: 20px;
+}
+form {
+  /* height: 100%; */
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form h5 {
+  font-size: 1.5rem;
+  padding: 15px 0;
+  /* text-align: left; */
+}
+
+.form label {
+  padding: 20px 0 10px;
+  font-size: 0.8rem;
+}
+.form input {
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+
+.form button {
+  padding: 10px 0;
+  background-color: #e85d04;
+  border: none;
+  color: white;
+  font-size: 0.7rem;
+  margin: 10px 0;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  padding: 3% 3%;
+  color: white;
+}
+
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+footer .wrapper img {
+  width: 120px;
+  margin-top: 20px;
+}
+
+footer h4 {
+  margin-bottom: 30px;
+}
+footer ul li a,
+footer .contact-info a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 0.7rem;
+}
+
+footer .icons img {
+  width: 50px;
+  margin-top: 20px;
+}
+
+.wrapper nav ul li [href="about"] {
+  color: #e9b606;
+}

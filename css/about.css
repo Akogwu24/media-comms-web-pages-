@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@500&family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #262a98;
+  min-width: 100%;
+  padding: 20px;
+  position: fixed;
+  z-index: 2;
+
+  /* box-shadow: 0 8px 10px #10102e; */
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper li {
+  list-style-type: none;
+}
+.wrapper li a {
+  color: white;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+header .wrapper ul {
+  min-width: 42%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper ul span {
+  background-color: #e9b606;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.banner {
+  background-color: #121560;
+  height: 50vh;
+}
+.banner-content {
+  position: absolute;
+  top: 25%;
+  max-width: 400px;
+  padding: 20px 0;
+}
+.banner-content::after {
+  content: "";
+  display: block;
+  width: 80%;
+  border-bottom: 3px solid #e9b606;
+}
+
+.banner-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: rgb(246, 246, 246);
+}
+
+section {
+  background-color: rgb(198, 215, 219);
+}
+section .wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10% 0;
+}
+.img-cont {
+  width: 290px;
+  /* height: 400px; */
+  background-color: #e9b606;
+}
+.img-cont img {
+  margin: -20px 0 7px 15px;
+}
+
+.who-text-container {
+  color: black;
+  max-width: 45%;
+}
+
+.who-text-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.who-text-container p {
+  max-width: 115%;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.free {
+  border: 10px solid #262a98;
+  margin: 15% auto;
+  padding: 3% 15%;
+  text-align: center;
+}
+
+.free h2 {
+  font-size: 2.3rem;
+  margin: 20px;
+}
+.free button {
+  padding: 2.2% 3.5%;
+  background-color: #e85d04;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  padding: 5% 3%;
+  color: white;
+}
+
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+footer .wrapper img {
+  width: 120px;
+  margin-top: 20px;
+}
+
+footer h4 {
+  margin-bottom: 30px;
+}
+footer ul li a,
+footer .contact-info a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 0.7rem;
+}
+
+footer .icons img {
+  width: 50px;
+  margin-top: 20px;
+}
+
+.wrapper nav ul li [href="about"] {
+  color: #e9b606;
+}

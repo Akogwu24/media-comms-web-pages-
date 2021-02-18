@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@500&family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #262a98;
+  min-width: 100%;
+  padding: 20px;
+  position: fixed;
+  z-index: 2;
+  box-shadow: 0 8px 10px #10102e;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper li {
+  list-style-type: none;
+  color: white;
+  font-size: 1em;
+}
+
+header .wrapper ul {
+  min-width: 42%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+.wrapper ul span {
+  background-color: #e9b606;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.banner {
+  background: url("https://res.cloudinary.com/dslkhklbl/image/upload/v1612949224/Rectangle_4_2x_j2vgml.png");
+  height: 70vh;
+  background-size: cover;
+  position: relative;
+  top: 80px;
+}
+.banner-content {
+  position: absolute;
+  left: 56%;
+  top: 30%;
+  max-width: 400px;
+}
+
+.banner-content h1 {
+  font-size: 3rem;
+  color: rgb(246, 246, 246);
+  padding: 15px 0;
+}
+
+.banner-content button {
+  font-size: 1rem;
+  padding: 15px 40px;
+  border-radius: 30px;
+  background-color: #e9b606;
+  border: none;
+}
+
+section {
+  background-color: rgb(198, 215, 219);
+}
+.who .wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20% 5% 10% 5%;
+}
+
+.img-cont {
+  width: 290px;
+  height: 285px;
+  background-color: #e9b606;
+}
+.img-cont img {
+  /* margin-left: 20px; */
+  margin: 15px 0 0 15px;
+}
+
+.who-text-container {
+  color: black;
+  max-width: 45%;
+}
+
+.who-text-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.who-text-container p {
+  max-width: 115%;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.who-text-container a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid #e9b606;
+  padding-bottom: 10px;
+}
+
+.our-approach {
+  background-color: #262a98;
+  color: white;
+}
+.our-approach .wrapper {
+  padding: 8% 5%;
+  display: flex;
+}
+.our-approach-text h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.our-approach-text p {
+  max-width: 80%;
+  margin-bottom: 30px;
+}
+.our-approach a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid #e9b606;
+  padding-bottom: 10px;
+}
+
+.free {
+  border: 10px solid #262a98;
+  margin: 15% auto;
+  padding: 3% 25%;
+  text-align: center;
+}
+
+.free h2 {
+  font-size: 2.3rem;
+  margin: 20px;
+}
+.free button {
+  padding: 2.2% 3.5%;
+  background-color: #e85d04;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  padding: 5% 3%;
+  color: white;
+}
+
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+footer .wrapper img {
+  width: 120px;
+}
+
+footer h4 {
+  margin-bottom: 30px;
+}
+footer ul li a,
+footer .contact-info a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 0.7rem;
+}
+
+footer .icons img {
+  width: 50px;
+  margin-top: 20px;
+}
+
+footer .wrapper [alt="logo"] {
+  padding-top: 20px;
+}
