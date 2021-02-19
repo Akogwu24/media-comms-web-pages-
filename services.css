@@ -35,9 +35,6 @@ header {
   font-size: 0.9em;
   text-decoration: none;
 }
-header ul li {
-  list-style-type: none;
-}
 
 header .wrapper ul {
   min-width: 42%;
@@ -82,28 +79,30 @@ section .container {
   justify-content: space-between;
   align-items: center;
   background-color: #121560;
-  width: 80%;
+  width: 90%;
+  height: 100%;
   margin: 0 auto;
 }
-.img-cont {
+
+.services-img-cont img {
   width: 350px;
 }
 
-.who-text-container {
+.services-text-container {
   color: black;
   height: 100%;
   margin-right: 4%;
 }
-.who-text-container ul {
+.services-text-container ul {
   color: white;
 }
-.who-text-container h2 {
+.services-text-container h2 {
   color: white;
   font-size: 2rem;
   text-align: left;
-  padding-bottom: 20px;
+  padding: 30px 0 20px 0;
 }
-.who-text-container li {
+.services-text-container li {
   padding: 7px;
   font-size: 0.9rem;
 }
